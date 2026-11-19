@@ -1,0 +1,48 @@
+:root {
+    --rosa: #E450DA;
+    --roxo: #9F8FFE;
+    --uva: #A3639F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("FATEC.png");
+    font-family: "Michroma", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 12px;
+    padding-left: 18px;
+    flex-direction: row;
+    height: 100px;
+    gap: 5px;
+    align-items: center;
+    background-color: var(--rosa);
+}
+
+
+.headerp{
+    flex-grow: 1;
+    display: flex;
+    font-size: 24px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.headera{
+    display: flex;
+    flex-grow: 2;
+    gap: 24px;
+    font-size: 18px;
+}
+header img {
+    height: 85px;
+    width: 85px;
+}
