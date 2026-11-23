@@ -1,5 +1,5 @@
 .contato-div{
-    padding: 50px 40px 80px;
+    padding: 25px;
     height: 75%;
     text-decoration: none;
     color:black;
@@ -12,11 +12,13 @@
 }
 
 .contato-fundo{
-    background-color: var(--rosa);
+    background-color: var(--roxo);
     border-radius: 14px;
     padding: 35px;
     display: flex;
     text-align: center;
+    height: 500px;
+    box-shadow: 0px 4px 4px black;
     justify-content: center;
 }
 
@@ -27,8 +29,9 @@
     gap: 14px;
     color: black;
 }
-.contato-icon i{
-    font-size: 26px;
+.contato-icon a{
+    height: 100%;
+    width: 100%;
     color: black;
 }
 .contato-rede{
