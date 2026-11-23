@@ -21,7 +21,6 @@
 }
 
 .contato-icon{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +28,8 @@
     color: black;
 }
 .contato-icon i{
-    width: 800px;
+    font-size: 26px;
+    color: black;
 }
 .contato-rede{
     display: flex;
