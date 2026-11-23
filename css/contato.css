@@ -1,0 +1,55 @@
+.contato-div{
+    padding: 50px 40px 80px;
+    height: 75%;
+    text-decoration: none;
+    color:black;
+}
+
+.contato-nome{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 26px;
+}
+
+.contato-fundo{
+    background-color: var(--rosa);
+    border-radius: 14px;
+    padding: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contato-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    color: black;
+}
+.contato-icon i{
+    width: 800px;
+}
+.contato-rede{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.contato-rede:hover{
+    transform: translateY(-5px);
+}
+
+.contato-rede i{
+    width: 105px;
+    height: 105px;
+}
+
+.e-mail-contato{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 14px;
+}

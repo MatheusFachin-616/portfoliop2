@@ -2,26 +2,160 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-
-    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/32264e988.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio</title>
 </head>
 
 <body>
     <header>
-            <img src="./img/BL.png" alt="Logo">
-            <div class="headerp">
+        <img src="./img/BL.png" alt="Logo">
+        <div class="headerp">
             <p>Matheus Fachin</p>
-            </div>
-            <div class="headerdiv">
-            <a href="#">Contato</a>
-            <a href="#">Disciplinas</a>
-            </div>
+        </div>
+        <div class="header-div">
+            <a href="./contato.html">Contato</a>
+        </div>
     </header>
+    <main class="main-principal">
+        <div class="fatec-fundo">FATEC</div>
+        <div class="main-perfil">
+            <div class="foto-div"><img src="./img/Matheus.png" alt="Matheus Fachin" class="foto-perfil">
+                <p class="idade">20 Anos</p>
+            </div>
+            <div class="informacao-perfil">
+                <h1>Matheus Fachin</h1>
+                <p class="desc-perfil">Estudante da FATEC São Roque</p>
+            </div>
+        </div>
+
+        <div class="div-cards">
+            <div class="card">
+                <p class="nome-card">Atualmente no Primeiro Semestre de SI</p>
+                <p class="desc-card">Desde 2026</p>
+        </div>
+
+            <div class="card">
+                <p class="nome-card">Cursou análise de desenvolvimento de sistemas na ETEC</p>
+                <p class="desc-card">Concluído em 2023</p>
+        </div>
+
+            <div class="card">
+                <p class="nome-card">Em bisca de aprendizado para entrar no mercado de trabalho</p>
+                <p class="desc-card">Novas oportunidades</p>
+            </div>
+    </div>
+    </main>
+    <section class="habilidades-section">
+        <div class="habilidades-div">
+            <h2>Habilidades</h2>
+        </div>
+        <div class="habilidades-fundo">
+            <div class="habilidades-lista">
+                <div class="habilidade-card">
+                    <img src="./img/programacaoicon.png" alt="Programação" class="habilidade-icon">
+                    <p clas="habilidade-p">Programação</p>
+                </div>
+                <div class="habilidade-card">
+                    <img src="./img/englsih.png" alt="Bandeira Reino Unido" class="habilidade-icon">
+                    <p clas="habilidade-p">Inglês</p>
+                </div>
+                <div class="habilidade-card">
+                    <img src="./img/scissors.png" alt="Edição" class="habilidade-icon">
+                    <p clas="habilidade-p">Edição de Vídeo/Aúdio/Imagem</p>
+                </div>
+        </div>
+    </section>
+    <div class="linha"></div>
+    <div class="disciplinas-div">
+        <h1 class="disciplinas-h1">Disciplinas</h1>
+
+        <div class="disciplinas-lista">
+            <div class="disciplina-card" id="disciplina-card-ppsi">
+                <h2>
+                    PPSI - Padrões de Projetos de Sítios e Internet
+                </h2>
+                <p class="disciplina-desc">
+                    Este site foi desenvolvido e projetados com os conhecimentos adquiridos na matéria de PPSI
+                </p>
+                <div class="disciplina-final">
+                <p>Mais projetos no repositório do github.</p>
+                    <a href="https://github.com/matheusfachin616" class="github-ppsi"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="disciplina-card" id="algoritmo">
+                <h2>
+                    Algorítmos e Lógica de Programação
+                </h2>
+                <p class="disciplina-desc">Desenvovimento em lógica, programação VisuAlg, e vetores.</p>
+            </div>
+            <div class="disciplina-card" id="matematica">
+                <h2>
+                    Fundamentos da Matemática Elementar
+                </h2>
+                <p class="disciplina-desc">Desenvolvido conhecimento de matrizes, gráficos, radiações, potenciações e inequações.</p>
+            </div>
+            <div class="disciplina-card" id="disciplina-card-design">
+                <h2>
+                    Design Digital
+                </h2>
+                <p class="disciplina-desc">Desenvolvido projetos com identidade visual, cores, imagens e tipografia.</p>
+                <div class="design-fim">
+                    <img src="./img/DesignProjeto.png" alt="Projeto de Design"><p class="design-fim-p">Projeto de tela para desenvolvedor e Administrador. Usando o Figma como ferramenta para a criação da tela.</p>
+                </div>
+            </div>
+            <div class="disciplina-card" id="disciplina-card-internet">
+                <div class="internet-nome">
+                <h2>Bases da Internet</h2>
+                <p class="disciplina-desc">Conhecimentos gerais sobre internet e informática, juntamente com o projeto de um blog</p>
+                <p class="disciplina-link">
+                    Link do Blog: <a href="#">Acessar Blog</a>
+                </p>
+                </div>
+                <img src="./img/BL.png" alt="Web Tools Info" class="webtools-logo">
+            </div>
+            <div class="disciplina-card" id="leitura">
+                <h2>Leitura e Produção de Textos</h2>
+                <p class="disciplina-desc">
+                    Leitura crítica e análise. Paragrafação e coesão.
+                </p>
+            </div>
+            <div class="disciplina-card" id="webcriacao">
+                <h2>Criação de Conteúdo na WEB</h2>
+                <p class="disciplina-desc">Habilidades e conhecimentos para criar conteúdos digitais, técnicas de divulgação e storytelling.</p>
+            </div>
+            
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-conteudo">
+            <div class="footer-desc">
+                <p class="footer-h1">Contato</p>
+                <p class="footer-email">Email: matheusfachin616@gmail.com</p>
+                <div class="redes-sociais">
+                    <a href="#">Linkedin</a>
+                    <a href="#">Github</a>
+                </div>
+            </div>
+    <div class="footer-desc">
+        <p class="footer-h1">Navegação</p>
+            <ul class="footer-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+    </div>
+    <div>
+    <div class="footer-copyright">
+        <p>Criado por Matheus Fachin 2026</p>
+    </div>
+    </footer>
 </body>
 
 </html>

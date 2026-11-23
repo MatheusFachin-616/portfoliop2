@@ -1,48 +1,250 @@
-:root {
-    --rosa: #E450DA;
-    --roxo: #9F8FFE;
-    --uva: #A3639F;
-}
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     background-image: url("FATEC.png");
-    font-family: "Michroma", sans-serif;
+    overflow-x: hidden;
 }
 
-header {
+
+.main-principal{
+position: relative;
+padding:  60px 40px;
+
+}
+
+.fatec-fundo{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.342);
+    z-index: -1;
+    letter-spacing: 12px;
+}
+
+.main-perfil{
     display: flex;
-    padding: 12px;
-    padding-left: 18px;
-    flex-direction: row;
-    height: 100px;
-    gap: 5px;
     align-items: center;
-    background-color: var(--rosa);
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 60px;
 }
 
-
-.headerp{
-    flex-grow: 1;
+.foto-div{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idade{
+    margin-top: 10px;
     font-size: 24px;
 }
-header a{
-    text-decoration: none;
-    color: black;
+
+.informacao-perfil h1{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 6px;
 }
-.headera{
-    display: flex;
-    flex-grow: 2;
-    gap: 24px;
+h2{
+    font-size: 38px;
+}
+
+.desc-perfil{
+ font-size:18px;
+ background-color: rgba(128, 128, 128, 0.701);
+}
+
+.div-cards{
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.card{
+    background-color: var(--roxo);
+    width: 270px;
+    padding: 20px;
+    box-shadow: 0 4px 10px black;
+    transition: 0.2s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.nome-card{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.desc-card{
     font-size: 18px;
 }
-header img {
-    height: 85px;
-    width: 85px;
+
+.habilidades-section{
+    margin-top: 60px;
+}
+
+.habilidades-div{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.habilidades-div h2{
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.habilidades-fundo{
+    background-color: var(--uva);
+    width: 100vw;
+    padding: 35px 40px;
+}
+
+.habilidades-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.habilidade-card{
+    background-color: var(--rosa);
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    transition: 0.2s;
+    font-size: 40px;
+}
+
+.habilidade-card:hover{
+    transform: scale(105%);
+}
+
+.habilidade-icon{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.habiidade-p{
+    font-size:40px;
+}
+.linha{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    border-radius: 1px;
+    margin: 30px;
+}
+
+.disciplinas-div{
+    padding: 30px;
+}
+.disciplinas-h1{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.disciplinas-lista{
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+}
+.disciplina-card{
+    border-radius: 8px;
+    padding: 24px;
+}
+.disciplina-card h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.disciplina-desc{
+    font-size: 20px;
+}
+
+#disciplina-card-ppsi{
+    background-color: grey;
+}
+
+#matematica{
+    background-color: orangered;
+}
+
+#disciplina-card-design{
+    background-color: rgb(123, 123, 240);
+}
+
+#disciplina-card-internet{
+    background-color: var(--roxo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+#webcriacao{
+    background-color: rgb(27, 153, 27);
+}
+#leitura{
+    background-color: rgb(240, 240, 70);
+}
+.disciplina-desc{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-size: 20px;
+    color:black;
+}
+.github-ppsi{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.design-fim{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:22px;
+}
+
+.design-fim img{
+    object-fit: cover;
+}
+.design-fim-p{
+    font-size: 22px;
+}
+
+.disciplina-link{
+    margin-top: 18px;
+    font-size: 16px;
+}
+.disciplina-link a{
+    color: black;
+    text-decoration: underline;
+}
+.webtools-logo{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+    .main-perfil{
+        flex-direction: column;
+        text-align: center;
+    }
+    .body{
+        overflow-x: hidden;
+    }
 }
