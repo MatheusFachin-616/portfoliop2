@@ -246,12 +246,13 @@ h2{
     flex-shrink: 0;
 }
 @media (max-width: 768px) {
-    .main-perfil{
-        flex-direction: column;
-        text-align: center;
-    }
     .body{
         overflow-x: hidden;
     }
-    .fatec-fundo
+    .main-perfil{
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
 }

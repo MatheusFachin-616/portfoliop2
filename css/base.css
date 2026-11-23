@@ -113,6 +113,16 @@ footer{
         overflow-x: hidden;
     }
     .headerp{
-        font-size: 18px;
+        font-size: 14px;
+    }
+    header{
+        height: 60px;
+    }
+    header img{
+        height: 50px;
+        width: 50px;
+    }
+    header a{
+        font-size: 10px;
     }
 }
