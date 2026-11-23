@@ -40,7 +40,7 @@ header a{
     flex-grow: 1;
     font-size: 18px;
     padding-right: 32px;
-    transition: 0.2s;
+    transition: 0.21;
 }
 .headera:hover{
     background-color: #A3639F;
