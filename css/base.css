@@ -79,13 +79,15 @@ footer{
 }
 .footer-h1{
     font-size: 20px;
+    margin-bottom: 12px;
 }
 
 .footer-desc{
-    font-size: 22px;
+    font-size: 26px;
     text-decoration: none;
+    color: black;
 }
-footer li{
+footer ul{
     list-style: none;
     text-decoration: none;
     color: black;
@@ -164,6 +166,9 @@ footer li{
         justify-content: center;
     }
     .footer-email{
+        font-size: 10px;
+    }
+    .footer-copyright{
         font-size: 10px;
     }
 }

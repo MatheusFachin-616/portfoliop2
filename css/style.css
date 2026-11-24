@@ -185,8 +185,13 @@ h2{
     flex-direction: row;
     gap: 30px;
     align-items: center;
+    color: black;
+    text-decoration: none;
 }
-.disciplina-final i{
+.github-call{
+    color: black;
+}
+.github-ppsi{
     font-size: 40px;
     color: black;
 }
@@ -225,11 +230,6 @@ h2{
     font-size: 20px;
     color:black;
 }
-.github-ppsi{
-    width: 30px;
-    height: 30px;
-    display: block;
-}
 .design-fim{
     margin-top: 18px;
     display: flex;
@@ -247,7 +247,7 @@ h2{
 
 .disciplina-link{
     margin-top: 18px;
-    font-size: 16px;
+    font-size: 24px;
 }
 .disciplina-link a{
     color: black;
@@ -257,10 +257,17 @@ h2{
     background: purple;
 }
 .webtools-logo{
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    flex-shrink: 0;
+}
+.internet-div{
+    margin-top: 20px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
 }
 @media (max-width: 768px) {
     .body{
@@ -341,6 +348,7 @@ h2{
     .disciplina-card h2{
         font-size:16px
     }
+
     .github-call{
         color: black;
         margin-top: 8px;
@@ -372,12 +380,23 @@ h2{
     #internet-desc{
         word-break: normal;
     }
+    .internet-div{
+        align-items: center;
+        justify-content: start;
+        margin-top: 8px;
+        gap: 12px;
+        padding: 0 0 0 0;
+    }
     .internet-div a{
         width: 75%;
+        font-size: 14px;
     }
     .webtools-logo{
         object-fit: fill;
         height: 66px;
         width: 66px;
+    }
+    .github-call{
+        font-size: 14px;
     }
 }

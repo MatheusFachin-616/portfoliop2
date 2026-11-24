@@ -7,7 +7,7 @@
 
 .contato-nome{
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 26px;
 }
 
@@ -30,8 +30,7 @@
     color: black;
 }
 .contato-icon a{
-    height: 100%;
-    width: 100%;
+    font-size: 225px;
     color: black;
 }
 .contato-rede{
@@ -52,6 +51,7 @@
 }
 
 .e-mail-contato{
+    margin-top: -30px;
     font-size: 20px;
     text-align: center;
     margin-top: 14px;
