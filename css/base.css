@@ -50,6 +50,9 @@ header img {
     height: 85px;
     width: 85px;
 }
+hr{
+    border-color: black;
+}
 
 footer{
     background-color: var(--roxo);
@@ -171,7 +174,7 @@ footer ul{
         font-size: 10px;
     }
     .footer-links a{
-        font-size: 12px;
+        font-size: 10px;
     }
     .redes-sociais a{
         font-size: 30px;
