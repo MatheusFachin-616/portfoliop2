@@ -58,9 +58,14 @@
 }
 
 @media (max-width: 768px){
+    body{
+        height: 100vh;
+    }
     .contato-fundo{
-        padding: 12px;
-        height: 200px;
+        padding-top: 2px;
+        padding-bottom: 8px;
+        padding: 8px;
+        height: 175px;
     }
     .e-mail-contato{
         font-size: 10px;
