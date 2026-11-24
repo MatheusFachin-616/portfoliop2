@@ -81,27 +81,47 @@ footer{
     font-size: 20px;
 }
 
-.footer-desc p{
+.footer-desc{
     font-size: 22px;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
 .footer-links{
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     list-style: none;
     display: flex;
     text-align: center;
     flex-direction: column;
     text-align: center;
 }
-
+.footer-email{
+    font-size: 14px;
+}
 .redes-sociais{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 18px;
+    width: 50%;
 }
 .redes-sociais a{
     color: black;
+    text-decoration: none;
+    font-size: 35px;
+}
+.footer-linha{
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    width: 150%;
+    margin-left: -40px;
+    overflow-x: hidden;
 }
 .footer-copyright{
     font-size: 12px;
@@ -124,6 +144,26 @@ footer{
         width: 50px;
     }
     header a{
+        font-size: 10px;
+    }
+    footer{
+        padding: 15px 20px 5px;
+    }
+    .footer-conteudo{
+        flex-wrap: nowrap;
+        padding:0 0 0 0;
+    }
+    .footer-h1{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .footer-desc{
+        font-size: 10px;
+    }
+    .redes-sociais{
+        justify-content: center;
+    }
+    .footer-email{
         font-size: 10px;
     }
 }

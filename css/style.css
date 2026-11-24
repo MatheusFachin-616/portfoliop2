@@ -63,7 +63,7 @@ h2{
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 
 .card{
@@ -87,6 +87,7 @@ h2{
 
 .desc-card{
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .habilidades-section{
@@ -179,6 +180,16 @@ h2{
 #disciplina-card-ppsi{
     background-color: grey;
 }
+.disciplina-final{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.disciplina-final i{
+    font-size: 40px;
+    color: black;
+}
 
 #matematica{
     background-color: orangered;
@@ -194,6 +205,12 @@ h2{
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+}
+.internet-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 #webcriacao{
     background-color: rgb(27, 153, 27);
@@ -304,9 +321,63 @@ h2{
     }
     .habilidades-section h2{
         font-size: 20px;
-        padding: 10px;
+        padding: 2px;
     }
     .habilidade-card{
+        font-size: 16px;
+        width: 100%;
+        padding: 6px 10px;
+    }
+    .habilidades-fundo{
+        padding: 16px 14px;
+    }
+    .habilidade-icon{
+        width: 66px;
+        height: 66px;
+    }
+    .disciplinas-h1{
         font-size: 20px;
+    }
+    .disciplina-card h2{
+        font-size:16px
+    }
+    .github-call{
+        color: black;
+        margin-top: 8px;
+    }
+    .disciplina-desc{
+        font-size: 10px;
+    }
+    .design-fim{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .design-fim img{
+        height: 100%;
+        width: 100%;
+
+    }
+    .design-fim-p{
+        font-size: 12px;
+    }
+    .disciplina-link{
+        font-size: 12px;
+    }
+    .webtools-logo{
+        height: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+    #internet-desc{
+        word-break: normal;
+    }
+    .internet-div a{
+        width: 75%;
+    }
+    .webtools-logo{
+        object-fit: fill;
+        height: 66px;
+        width: 66px;
     }
 }
