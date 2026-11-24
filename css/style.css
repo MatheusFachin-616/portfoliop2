@@ -18,11 +18,11 @@ padding:  60px 40px;
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 250px;
+    font-size: 230px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.342);
     z-index: -1;
-    letter-spacing: 12px;
+    letter-spacing: 8px;
 }
 
 .main-perfil{
